@@ -14,12 +14,14 @@
 - `easyocr`
 - `PyMuPDF` (fitz)
 - `llama_index` for LLM support
+- `Ollama`
 
 ## Installation
 Install the required Python packages using pip:
 ```sh
 pip install easyocr pymupdf llama_index
 ```
+Install Ollama from https://ollama.com/download
 
 ## Usage
 1. Import the `PdfReader` class.
@@ -63,6 +65,7 @@ Uses the specified LLM to refine and format the extracted text.
 ## Notes
 - Ensure that the `output_fold` directory exists before running the script.
 - The quality of OCR results may vary based on the quality and content of the PDF file.
+- If this does not work for you try using a smaller llm or increase the timeout. You can find the name of llms on https://ollama.com/library.
 
 ## License
 This project is licensed under the MIT License.
