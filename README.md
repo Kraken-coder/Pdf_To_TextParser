@@ -22,11 +22,11 @@ Install the required Python packages using pip:
 pip install easyocr pymupdf llama_index
 ```
 Install Ollama from https://ollama.com/download
-Run this command in cmd after installing Ollama to download 1st time
+Run this command in cmd after installing Ollama to download first time
 ```sh
 Ollama run llama3
 ```
-Run this command in cmd after selecting a newmodel to download it 1st time
+Run this command in cmd after selecting a newmodel to download it first time
 ```sh
 Ollama run model_name
 ```
